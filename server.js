@@ -6,7 +6,7 @@ this.app = express();
 this.app.use(bodyParser.urlencoded({ extended: false }));
 this.app.use(bodyParser.json());
 
-this.app.use(express.static(path.join(__dirname, '../../static')));
+this.app.use(express.static(path.join(__dirname, './dist/cataleya/'))); 
 
 this.app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, './dist/cataleya/index.html'));
