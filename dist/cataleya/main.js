@@ -91,14 +91,14 @@ class AppComponent {
     }
 }
 AppComponent.ɵfac = function AppComponent_Factory(t) { return new (t || AppComponent)(); };
-AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 5, vars: 0, consts: [["role", "main", 1, "flex-shrink-0"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
+AppComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: AppComponent, selectors: [["app-root"]], decls: 5, vars: 0, consts: [["role", "main", 1, "flex-shrink-0"], ["id", "footerid"]], template: function AppComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "header");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "app-navbar");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "main", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](3, "router-outlet");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-footer");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](4, "app-footer", 1);
     } }, directives: [_components_navbar_navbar_component__WEBPACK_IMPORTED_MODULE_1__["NavbarComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"], _components_footer_footer_component__WEBPACK_IMPORTED_MODULE_3__["FooterComponent"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIn0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](AppComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
@@ -605,7 +605,7 @@ class NaslovnaComponent {
     }
 }
 NaslovnaComponent.ɵfac = function NaslovnaComponent_Factory(t) { return new (t || NaslovnaComponent)(); };
-NaslovnaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NaslovnaComponent, selectors: [["app-naslovna"]], decls: 40, vars: 0, consts: [["id", "myCarousel", "data-ride", "carousel", "width", "100%", "height", "100%", 1, "carousel", "slide"], [1, "carousel-indicators"], ["data-target", "#myCarousel", "data-slide-to", "0", 1, "active"], ["data-target", "#myCarousel", "data-slide-to", "1"], ["data-target", "#myCarousel", "data-slide-to", "2"], ["data-target", "#myCarousel", "data-slide-to", "3"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "../../../assets/images/slide1.jpg", "width", "100%", "height", "100%", "alt", "", 1, "bd-placeholder-img"], [1, "container"], [1, "carousel-caption", "text-left"], [1, "carousel-item"], ["src", "../../../assets/images/salon.jpeg", "width", "100%", "height", "100%", "alt", "", 1, "bd-placeholder-img"], [1, "carousel-caption"], ["src", "../../../assets/images/slide3.jpg", "width", "100%", "height", "100%", "alt", "", 1, "bd-placeholder-img"], ["src", "../../../assets/images/slide4.jpg", "width", "100%", "height", "100%", "alt", "", 1, "bd-placeholder-img"], [1, "carousel-caption", "text-right", "text-dark"], ["href", "#myCarousel", "role", "button", "data-slide", "prev", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "sr-only"], ["href", "#myCarousel", "role", "button", "data-slide", "next", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"]], template: function NaslovnaComponent_Template(rf, ctx) { if (rf & 1) {
+NaslovnaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NaslovnaComponent, selectors: [["app-naslovna"]], decls: 40, vars: 0, consts: [["id", "myCarousel", "data-ride", "carousel", "width", "100%", "height", "100%", 1, "carousel", "slide"], [1, "carousel-indicators"], ["data-target", "#myCarousel", "data-slide-to", "0", 1, "active"], ["data-target", "#myCarousel", "data-slide-to", "1"], ["data-target", "#myCarousel", "data-slide-to", "2"], ["data-target", "#myCarousel", "data-slide-to", "3"], [1, "carousel-inner"], [1, "carousel-item", "active"], ["src", "../../../assets/images/slide1.jpg", "width", "100%", "height", "100%", "alt", "", 1, "bd-placeholder-img"], [1, "container"], [1, "carousel-caption", "text-left"], [1, "carousel-item"], ["src", "../../../assets/images/salon.jpeg", "width", "100%", "height", "100%", "alt", "", 1, "bd-placeholder-img"], [1, "carousel-caption"], ["src", "../../../assets/images/slide3.jpg", "width", "100%", "height", "100%", "alt", "", 1, "bd-placeholder-img"], ["src", "../../../assets/images/slide4.jpg", "width", "100%", "height", "100%", "alt", "", 1, "bd-placeholder-img"], [1, "carousel-caption", "text-right", "text-dark"], ["href", "#myCarousel", "role", "button", "data-slide", "prev", 1, "carousel-control-prev"], ["aria-hidden", "true", 1, "carousel-control-prev-icon"], [1, "sr-only"], ["href", "#myCarousel", "role", "button", "data-slide", "next", 1, "carousel-control-next"], ["aria-hidden", "true", 1, "carousel-control-next-icon"], ["id", "zaposleniciid"], ["id", "uslugeid"], ["id", "bookingid"]], template: function NaslovnaComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "ol", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](2, "li", 2);
@@ -662,9 +662,9 @@ NaslovnaComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefine
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "app-zaposlenici");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "app-usluge");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "app-booking");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](37, "app-zaposlenici", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](38, "app-usluge", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](39, "app-booking", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } }, directives: [_zaposlenici_zaposlenici_component__WEBPACK_IMPORTED_MODULE_1__["ZaposleniciComponent"], _usluge_usluge_component__WEBPACK_IMPORTED_MODULE_2__["UslugeComponent"], _booking_booking_component__WEBPACK_IMPORTED_MODULE_3__["BookingComponent"]], styles: ["@font-face {\r\n  font-family: \"ElMessiri-SemiBold\";\r\n  src: url('ElMessiri-SemiBold.ttf'); }\r\n@font-face {\r\n  font-family: \"Montserrat-Regular\";\r\n  src: url('Montserrat-Regular.ttf'); }\r\n@font-face {\r\n  font-family: \"Montserrat-SemiBold\";\r\n  src: url('Montserrat-SemiBold.ttf'); }\r\n*[_ngcontent-%COMP%] {\r\n  box-sizing: border-box; }\r\n.bd-placeholder-img[_ngcontent-%COMP%] {\r\n    object-fit:cover;\r\n    font-size: 1.125rem;\r\n    text-anchor: middle;\r\n    -webkit-user-select: none;\r\n    -moz-user-select: none;\r\n    user-select: none;\r\n  }\r\n@media (min-width: 768px) {\r\n    .bd-placeholder-img-lg[_ngcontent-%COMP%] {\r\n      font-size: 3.5rem;\r\n    }\r\n  }\r\n\r\n.carousel[_ngcontent-%COMP%] {\r\n    margin-bottom: 4rem;\r\n  }\r\n\r\n.carousel-caption[_ngcontent-%COMP%] {\r\n    bottom: 3rem;\r\n    z-index: 10;\r\n  }\r\n\r\n.carousel-item[_ngcontent-%COMP%] {\r\n    height: 90vh;\r\n  }\r\n.carousel-item[_ngcontent-%COMP%]    > img[_ngcontent-%COMP%] {\r\n    position: absolute;\r\n    top: 0;\r\n    left: 0;\r\n    min-width: 100%;\r\n    height: 90vh;\r\n  }\r\np[_ngcontent-%COMP%], h1[_ngcontent-%COMP%]{\r\n    font-family: \"ElMessiri-SemiBold\";\r\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9uYXNsb3ZuYS9uYXNsb3ZuYS5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsaUNBQWlDO0VBQ2pDLGtDQUFtRSxFQUFFO0FBQ3ZFO0VBQ0UsaUNBQWlDO0VBQ2pDLGtDQUFtRSxFQUFFO0FBQ3ZFO0VBQ0Usa0NBQWtDO0VBQ2xDLG1DQUFvRSxFQUFFO0FBQ3hFO0VBR0Usc0JBQXNCLEVBQUU7QUFDMUI7SUFDSSxnQkFBZ0I7SUFDaEIsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQix5QkFBeUI7SUFDekIsc0JBQXNCO0lBRXRCLGlCQUFpQjtFQUNuQjtBQUtBO0lBQ0U7TUFDRSxpQkFBaUI7SUFDbkI7RUFDRjtBQUVGLHdCQUF3QjtBQUN4QjtJQUNJLG1CQUFtQjtFQUNyQjtBQUNBLGlFQUFpRTtBQUNqRTtJQUNFLFlBQVk7SUFDWixXQUFXO0VBQ2I7QUFFQSwwREFBMEQ7QUFDMUQ7SUFDRSxZQUFZO0VBQ2Q7QUFDQTtJQUNFLGtCQUFrQjtJQUNsQixNQUFNO0lBQ04sT0FBTztJQUNQLGVBQWU7SUFDZixZQUFZO0VBQ2Q7QUFFQTtJQUNFLGlDQUFpQztFQUNuQyIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvbmFzbG92bmEvbmFzbG92bmEuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIkBmb250LWZhY2Uge1xyXG4gIGZvbnQtZmFtaWx5OiBcIkVsTWVzc2lyaS1TZW1pQm9sZFwiO1xyXG4gIHNyYzogdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ZvbnRzL2VsX21lc3NpcmkvRWxNZXNzaXJpLVNlbWlCb2xkLnR0ZlwiKTsgfVxyXG5AZm9udC1mYWNlIHtcclxuICBmb250LWZhbWlseTogXCJNb250c2VycmF0LVJlZ3VsYXJcIjtcclxuICBzcmM6IHVybChcIi4uLy4uLy4uL2Fzc2V0cy9mb250cy9tb250c2VycmF0L01vbnRzZXJyYXQtUmVndWxhci50dGZcIik7IH1cclxuQGZvbnQtZmFjZSB7XHJcbiAgZm9udC1mYW1pbHk6IFwiTW9udHNlcnJhdC1TZW1pQm9sZFwiO1xyXG4gIHNyYzogdXJsKFwiLi4vLi4vLi4vYXNzZXRzL2ZvbnRzL21vbnRzZXJyYXQvTW9udHNlcnJhdC1TZW1pQm9sZC50dGZcIik7IH1cclxuKiB7XHJcbiAgLXdlYmtpdC1ib3gtc2l6aW5nOiBib3JkZXItYm94O1xyXG4gIC1tb3otYm94LXNpemluZzogYm9yZGVyLWJveDtcclxuICBib3gtc2l6aW5nOiBib3JkZXItYm94OyB9XHJcbi5iZC1wbGFjZWhvbGRlci1pbWcge1xyXG4gICAgb2JqZWN0LWZpdDpjb3ZlcjtcclxuICAgIGZvbnQtc2l6ZTogMS4xMjVyZW07XHJcbiAgICB0ZXh0LWFuY2hvcjogbWlkZGxlO1xyXG4gICAgLXdlYmtpdC11c2VyLXNlbGVjdDogbm9uZTtcclxuICAgIC1tb3otdXNlci1zZWxlY3Q6IG5vbmU7XHJcbiAgICAtbXMtdXNlci1zZWxlY3Q6IG5vbmU7XHJcbiAgICB1c2VyLXNlbGVjdDogbm9uZTtcclxuICB9XHJcblxyXG4gIFxyXG5cclxuXHJcbiAgQG1lZGlhIChtaW4td2lkdGg6IDc2OHB4KSB7XHJcbiAgICAuYmQtcGxhY2Vob2xkZXItaW1nLWxnIHtcclxuICAgICAgZm9udC1zaXplOiAzLjVyZW07XHJcbiAgICB9XHJcbiAgfVxyXG5cclxuLyogQ2Fyb3VzZWwgYmFzZSBjbGFzcyAqL1xyXG4uY2Fyb3VzZWwge1xyXG4gICAgbWFyZ2luLWJvdHRvbTogNHJlbTtcclxuICB9XHJcbiAgLyogU2luY2UgcG9zaXRpb25pbmcgdGhlIGltYWdlLCB3ZSBuZWVkIHRvIGhlbHAgb3V0IHRoZSBjYXB0aW9uICovXHJcbiAgLmNhcm91c2VsLWNhcHRpb24ge1xyXG4gICAgYm90dG9tOiAzcmVtO1xyXG4gICAgei1pbmRleDogMTA7XHJcbiAgfVxyXG4gIFxyXG4gIC8qIERlY2xhcmUgaGVpZ2h0cyBiZWNhdXNlIG9mIHBvc2l0aW9uaW5nIG9mIGltZyBlbGVtZW50ICovXHJcbiAgLmNhcm91c2VsLWl0ZW0ge1xyXG4gICAgaGVpZ2h0OiA5MHZoO1xyXG4gIH1cclxuICAuY2Fyb3VzZWwtaXRlbSA+IGltZyB7XHJcbiAgICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgICB0b3A6IDA7XHJcbiAgICBsZWZ0OiAwO1xyXG4gICAgbWluLXdpZHRoOiAxMDAlO1xyXG4gICAgaGVpZ2h0OiA5MHZoO1xyXG4gIH1cclxuICBcclxuICBwLGgxe1xyXG4gICAgZm9udC1mYW1pbHk6IFwiRWxNZXNzaXJpLVNlbWlCb2xkXCI7XHJcbiAgfSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](NaslovnaComponent, [{
@@ -725,34 +725,34 @@ function NavbarComponent_nav_0_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "li", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "a", 14);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "Usluge");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "li", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "a", 15);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](22, "Booking");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "li", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 13);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "a", 16);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "Galerija");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "li", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 14);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "a", 17);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](28, "Kontakt");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "ul", 15);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "ul", 18);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "li", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 16);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "a", 19);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Prijava");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "li", 12);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "a", 17);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "a", 20);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "Registracija");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -769,7 +769,7 @@ class NavbarComponent {
     }
 }
 NavbarComponent.ɵfac = function NavbarComponent_Factory(t) { return new (t || NavbarComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](_navbar_service__WEBPACK_IMPORTED_MODULE_1__["NavbarService"])); };
-NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 1, vars: 1, consts: [["class", "navbar navbar-expand-md navbar-light fixed-top", "id", "navv", 4, "ngIf"], ["id", "navv", 1, "navbar", "navbar-expand-md", "navbar-light", "fixed-top"], [1, "container"], ["routerLink", "", 1, "navbar-brand", "mr-5"], ["id", "naziv_salona", 1, "display-4"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarCollapse", "aria-controls", "navbarCollapse", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarCollapse", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "ml-3", "mr-auto"], [1, "nav-item", "active"], ["href", "", 1, "nav-link"], [1, "sr-only"], [1, "nav-item"], ["routerLink", "", 1, "nav-item", "nav-link", "mx-2", 2, "cursor", "pointer"], ["routerLink", "", 1, "nav-link", 2, "cursor", "pointer"], [1, "navbar-nav", "ml-auto"], ["routerLink", "/prijava", 1, "nav-item", "nav-link", "mr-3", 2, "cursor", "pointer"], ["routerLink", "/registracija", 1, "nav-link", 2, "cursor", "pointer"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
+NavbarComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: NavbarComponent, selectors: [["app-navbar"]], decls: 1, vars: 1, consts: [["class", "navbar navbar-default navbar-expand-md navbar-light fixed-top", "id", "navv", "role", "navigation", 4, "ngIf"], ["id", "navv", "role", "navigation", 1, "navbar", "navbar-default", "navbar-expand-md", "navbar-light", "fixed-top"], [1, "container"], ["routerLink", "", 1, "navbar-brand", "mr-5"], ["id", "naziv_salona", 1, "display-4"], ["type", "button", "data-toggle", "collapse", "data-target", "#navbarCollapse", "aria-controls", "navbarCollapse", "aria-expanded", "false", "aria-label", "Toggle navigation", 1, "navbar-toggler"], [1, "navbar-toggler-icon"], ["id", "navbarCollapse", 1, "collapse", "navbar-collapse"], [1, "navbar-nav", "mr-auto"], [1, "nav-item", "active"], ["href", "", 1, "nav-link"], [1, "sr-only"], [1, "nav-item"], ["href", "#zaposleniciid", 1, "nav-item", "nav-link", 2, "cursor", "pointer"], ["href", "#uslugeid", 1, "nav-item", "nav-link", 2, "cursor", "pointer"], ["href", "#bookingid", 1, "nav", "item", "nav-link", 2, "cursor", "pointer"], ["routerLink", "", 1, "nav-item", "nav-link", 2, "cursor", "pointer"], ["href", "#footerid", 1, "nav-link", 2, "cursor", "pointer"], [1, "navbar-nav", "ml-auto"], ["routerLink", "/prijava", 1, "nav-item", "nav-link", "mr-3", 2, "cursor", "pointer"], ["routerLink", "/registracija", 1, "nav-item", "nav-link", 2, "cursor", "pointer"]], template: function NavbarComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](0, NavbarComponent_nav_0_Template, 36, 0, "nav", 0);
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.nav.visible);
